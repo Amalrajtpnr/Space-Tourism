@@ -1,0 +1,26 @@
+body {
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/background-home-desktop.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}

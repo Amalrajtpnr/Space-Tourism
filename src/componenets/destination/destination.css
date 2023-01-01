@@ -1,0 +1,225 @@
+.main1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/background-destination-desktop.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.crew {
+  color: white;
+}
+
+.details1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.details2 {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.nav-bar {
+  width: 35%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 180px;
+}
+
+.planet {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.paragraph1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.head {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.digit {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.199);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.moon {
+  width: 60%;
+  height: 90%;
+}
+
+.nav-bar-mobile {
+  display: none;
+}
+
+.divider {
+  width: 100%;
+  height: 0.2px;
+  background-color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.distance {
+  width: 50%;
+  height: 50%;
+}
+
+.specifications {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.number {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.array {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .App1 {
+    position: relative;
+    background-image: url("../../assets/destination/background-destination-mobile.jpg");
+  }
+
+  .main1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details2 {
+    height: 82%;
+  }
+
+  .details1 {
+    width: 100%;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar-mobile {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0px;
+  }
+
+  .planet {
+    width: 100%;
+    height: 60%;
+  }
+
+  .title2 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    height: 6%;
+  }
+
+  .paragraph1 {
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+  }
+
+  .distance {
+    text-align: center;
+  }
+
+  .number {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,198 @@
+.App4 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/background-technology-desktop.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.details4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leaders4 {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.head4 {
+  width: 60%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.head5 {
+  display: none;
+}
+
+.digit4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.199);
+}
+
+.text2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.role {
+  font-size: 30px;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.199);
+  margin-bottom: -12px;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.name1 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.images2 {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 80px;
+  margin-bottom: -15px;
+}
+
+.images3 {
+  display: none;
+}
+
+.moon3 {
+  width: 70%;
+  height: 90%;
+}
+
+.selector1 {
+  width: 18%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+.circle1 {
+  width: 80%;
+  height: 20%;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.add {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.description {
+  width: 90%;
+  height: 100%;
+  margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+  .App4 {
+    background-image: url("../../assets/technology/background-technology-mobile.jpg");
+  }
+
+  .main4 {
+    flex-direction: column;
+  }
+
+  .leaders4 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .selector1 {
+    flex-direction: row;
+    width: 65%;
+    height: 20%;
+    margin-right: 0;
+  }
+
+  .circle1 {
+    width: 15%;
+    height: 40%;
+  }
+
+  .add {
+    font-size: 15px;
+  }
+
+  .description {
+    width: 90%;
+    height: 70%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .text2 {
+    font-size: 14px;
+  }
+
+  .images2 {
+    display: none;
+  }
+
+  .images3 {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 30%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .moon3 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .head4 {
+    height: 12%;
+    align-items: center;
+    justify-content: center;
+  }
+}
